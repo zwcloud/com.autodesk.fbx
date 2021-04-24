@@ -63,7 +63,7 @@ if args.use_ninja:
     generator = 'Ninja'
 else:
     if sys.platform.startswith('win'):
-        generator = 'Visual Studio 15 2017 Win64'
+        generator = 'Visual Studio 16 2019'
     else:
         generator = 'Unix Makefiles'
 config_args.append(generator)   
